@@ -261,3 +261,4 @@ if __name__ == '__main__':
     detstream = arraydet.detection_stream(st, 1.0)
 
     print(detstream)
+    detstream.plot()

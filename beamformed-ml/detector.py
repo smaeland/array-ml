@@ -12,7 +12,7 @@ detector_config = {
     'band_and_instr_code': 'BH*',
     'window_length_sec': 5.0,
     'sampling_rate': 40.0,
-    'model_file': 'phasenet/testmodel-phasenet',
+    'model_file': 'phasenet/model-phasenet-40Hz-jun28',
     'elements': {
         'ARA0': {
 

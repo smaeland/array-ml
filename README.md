@@ -11,7 +11,7 @@ Do beamforming of ML-based detection traces for stations in the ARCES array,
 similar to what was done for correlation traces in 
 https://doi.org/10.1111/j.1365-246X.2006.02865.x
 
-Use a CNN model based on [PhaseNet](https://doi.org/10.1093/gji/ggy423),
+The code uses a CNN model based on [PhaseNet](https://doi.org/10.1093/gji/ggy423),
 trained on [STEAD](https://doi.org/10.1109/ACCESS.2019.2947848) data.
 The STEAD data doesn't match our sampling rate, so we downsample to
 40 Hz before training a model, using `beamformed-ml/phasenet/resample_stead_files.py`.
